@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Box Demo, McKenna Burke</title>
+
+  <style>
+    /* the following is the box-sizing reset */
+
+    /* 
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    */
+
+    /* now back to regular styling */
+    body {
+      color: #14080E;
+      background-color: #E8E5E7;
+    }
+
+    header {}
+
+    main {}
+
+    #one {
+      background-color: pink;
+      width: 500px;
+      border: 2px solid papayawhip;
+      border-left: 2px solid papayawhip;
+      border-right: 2px solid;
+      padding: 20px;
+      padding-left: 50px;
+      margin: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #two {
+      background-color: #ACC196;
+      width: 300px;
+      border: 1px solid papayawhip;
+      margin-left: auto;
+      margin-right: auto;
+
+
+    }
+
+    #three {
+      background-color: burlywood;
+      width: 300px;
+      border: 1px solid papayawhip;
+      margin: 10px;
+      margin-right: auto;
+      margin-left: auto;
+
+
+
+    }
+
+    #four {
+      background-color:powderblue;
+      width: 250px;
+      border:2px solid rosybrown;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>web demo for exploring the box model in web pages</h1>
+  </header>
+
+  <main>
+    <!-- a box is called a div in html -->
+
+    <div id="one">
+      <p>content goes here.</p>
+    </div>
+
+    <div id="two">
+      <p>content goes here.</p>
+    </div>
+
+    <!-- this div has another div inside it -->
+    <div id="three">
+      <div id="four">
+        <p>content goes here.</p>
+      </div>
+      <p>content goes here.</p>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
