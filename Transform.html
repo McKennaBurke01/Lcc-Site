@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <title>template</title>
+
+    <!-- style is how you add internal css rules to your html -->
+    <style>
+div {
+    background:bisque
+
+}
+#one {
+    background:bisque
+    background: #897530;
+	width: 100px;
+	height: 100px;
+	border-radius: 0;
+	transition: transform 2s, border-radius 0.3s, background 2s;
+}
+
+#one:hover {
+	background: #783423;
+	transform: rotate(80deg);
+	border-radius: 30%;
+	transition: transform 0.5s;
+    
+}
+
+#two {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+#two:hover {
+    background-color:cadetblue ;
+    transform: scale(1) rotate(360deg);
+}
+
+#three {
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+#three:hover {
+    background-color: #D5BE7F;
+    transform: scale(3) rotate(360deg);
+}
+
+#four {
+    background-color: cornflowerblue;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s;
+}
+
+#four:hover {
+    background-color: gainsboro;
+    transform: scale(6) rotate(336deg);
+}
+    </style>
+</head>
+
+<!-- style is how you add elements to your html -->
+<body>
+
+    <div id="one"><p>Twirl</p></div>
+
+    <div id="two"><p>Small Twist</p></div>
+
+    <div id="three"><p>Medium Twist</p></div>
+
+    <div id="four"><p>Large Twist</p></div>
+</body>
+
+</html>
